@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+
+        footer {
+            background-color: orangered;
+            text-align: center;
+        }
+
+        div {
+            background-color: royalblue;
+            padding: 10px;
+        }
+
+        .nav {
+            grid-column: 1/3;
+            grid-area: nav;
+        }
+
+        .nav ol {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            list-style-type: none;
+            grid-gap: 0.2em;
+            background-color: orangered;
+        }
+
+        .nav li {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+        }
+
+        .nav li:hover {
+            color: cornflowerblue;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ol>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="experience.html">EXPERIENCE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ol>
+    </div>
+    <h1>About Me</h1>
+    <h2>Who am i?</h2>
+    <p>I'm Obinna, a new developer. My stack of development are HTML and CSS.<br>I'm new to web development but am
+        really passionate about my work.
+
+    </p>
+    <h2>My Loved Works</h2>
+    <p>I loved algorithms and data structure due to my passion for mathematics<br>.I do take challenges in some
+        sites,
+        so i prefer codility over hackerrank
+        <br>because codility challenges with time and gives solution result in percentage<br> due to the time
+        complexity
+        and test passed by the
+        code</p>
+    <marquee direction="left">corona virus has caused many things in Nigeria</marquee>
+    <marquee direction="right">Let's just pray,prayer is the only weapon to cure this pandemic in the wide world
+    </marquee>
+
+
+</body>
+
+<footer>Twitter<br>© Obinna,2020</footer>
+
+</html>
